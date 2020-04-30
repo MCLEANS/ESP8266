@@ -152,7 +152,7 @@ void drawCircleDemo() {
     display.setColor(WHITE);
     display.drawCircle(32, 32, i*3);
     if (i % 2 == 0) {
-      display.setColor(BLACK);
+      display.setColor(WHITE);
     }
     display.fillCircle(96, 32, 32 - i* 3);
   }
