@@ -11,7 +11,8 @@ SSD1306Wire display(0x3C,SDA_PIN,SCL_PIN);
 
 void setup(){
     display.init();
-    display.setFont(ArialMT_Plain_10);
+    display.flipScreenVertically();
+    display.setFont(ArialMT_Plain_24);
     display.drawString(10,10,"HELLO WORLD");
     display.display();
 
